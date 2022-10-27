@@ -18,14 +18,11 @@ public class Latihan01_PrimaPutraA
 			System.out.println(i + ". Universitas MDP");
 		}
 		
-		for(int j = 1; j < 5; j++)
+		for(int j = 50; j >= 1; j--)
 		{
-			for(int k = 1; k < j; k++)
-			{
-				System.out.print("j");
-			}
-			System.out.println("");
+			System.out.println(j + ". Universitas MDP");
 		}
+		
 		
 		
 	}
